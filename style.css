@@ -1,0 +1,71 @@
+/* Estilo básico del cuerpo */
+body {
+    font-family: 'Dancing Script', cursive; /* Fuente Script */
+    background: url('imagenweb.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    color: #ffffff; /* Color de texto oscuro para contraste */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    flex-direction: column; /* Cambiar de fila a columna */
+    justify-content: flex-start; /* Alinear elementos desde la parte superior */
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Encabezados (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+    color: #59afd6; /* Color oscuro para los encabezados (puede cambiarse según preferencia) */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #69bac0; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f3eae9; /* Cambia el color al pasar el ratón */
+}
+
+/* Botones */
+button {
+    background-color: #8ac2bd; /* Color de fondo */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+}
+
+button:hover {
+    background-color: #FF4500; /* Color más oscuro al pasar el ratón */
+}
+
+/* Contenedor general */
+.container {
+    width: 100%; /* Establecer un ancho completo */
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* Fondo blanco para contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Eliminar los puntos de las listas */
+ul {
+    list-style-type: none; /* Elimina los puntos de las listas */
+    padding: 0; /* Elimina el relleno */
+}
+
+li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
